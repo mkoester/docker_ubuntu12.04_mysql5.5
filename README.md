@@ -15,6 +15,9 @@ users and passwords:
 - root with pw root
 - dbuser with pw password
 
+Running the container
+---------------------
+
 This enables you to run this container as follows:
 
-    sudo docker run -d -p <local_port>:3306 --name <container_name> <name_of_this_image>:<tag>
+    sudo docker run -d -p <local_port>:3306 --name <container_name> -t <name_of_this_image>:<tag>
